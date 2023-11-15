@@ -1,0 +1,142 @@
+*{
+    font-family: 'Open Sans';
+}
+.image-section{
+    width: 100%;
+    height: 235px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('images/bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    padding: 30px;
+}
+.header-title{
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 55px;
+}
+.header-info{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+}
+.icon-container{
+    height: 400px;
+    height: 100%;
+    padding: 10px 5px;
+    background-color: #FAF7F4;
+    font-family: 'Mulish';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    display: flex;
+    align-items: top;
+    justify-content: center;
+    text-align: center;
+}
+.icon-container a{
+    display: block;
+    text-decoration: none;
+    color: black;
+
+}
+
+/* form ---------------------------------------------------------------------- */
+.form-outer-container{
+    background-color: #FAF7F4;
+    padding: 40px;
+    margin-bottom: 50px;
+}
+.form-input-field{
+    display: block;
+    background-color: white;
+    height: 60px;
+    width: 100%;
+    outline: none;
+    border: none;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+.form-input-field::placeholder{
+    color: #8C959F;
+    font-size: 18px;
+}
+.form-item textarea{
+    resize: none;
+    height: auto;
+    padding: 20px;
+}
+
+/* check box ------------------------------------------------ */
+input[type="checkbox"] {
+    display: none;
+  }
+  
+  /* Create a custom checkbox container */
+  .checkbox-container {
+    display: inline-block;
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    color: #8C959F;
+  }
+  
+  /* Style the custom checkbox */
+  .checkbox-container .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    /* background-color: #ccc; */
+    background-color: transparent;
+    border: 1px solid #8C959F;
+  }
+  
+  /* Style the checked state of the custom checkbox */
+  .checkbox-container input:checked + .checkmark {
+    /* background-color: #2196F3; */
+    background-color: #8C959F;
+  }
+  
+  /* Create a checkmark icon */
+  .checkbox-container .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Display the checkmark icon when the checkbox is checked */
+  .checkbox-container input:checked + .checkmark:after {
+    display: block;
+  }
+  
+  /* Style the checkmark icon */
+  .checkbox-container .checkmark:after {
+    left: 6px;
+    top: 3px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+  }
+
+  /* submit button ------------------------------------------------------------------------*/
+  .submit-button{
+    background-color: #23555F;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    display: block;
+    width: 100%;
+    margin-top: 30px;
+    border: none;
+    outline: none;
+  }
